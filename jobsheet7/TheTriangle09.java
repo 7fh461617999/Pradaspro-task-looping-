@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class TheTriangle09 {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    int numInput;
-    String s = " ";
+    int numInput ;
+    String s = "* ";
     System.out.print("input some number: ");
     numInput = input.nextInt();
-    for (int i = 0; i < numInput; i++) {
-        s+=" *";
-        System.out.println(s);
+    int i = numInput;
+    while (i> 0) {
+    System.out.println(s.repeat(i));
+        i--;
     }
     }
 }

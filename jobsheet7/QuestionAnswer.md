@@ -22,3 +22,6 @@
 3. done
 4. the program didn't run, because we in the confirmation input only y can be running / we have not set for that t
 5. done
+### task 
+![alt text](code6.png)
+done 
