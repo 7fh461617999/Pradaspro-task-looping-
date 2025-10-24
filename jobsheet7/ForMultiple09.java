@@ -14,8 +14,10 @@ public class ForMultiple09 {
                 counter++;
             }
         }
+        int average = sum/counter;
         System.out.printf("There are %d number that are multiple of %d in range 1 to 50 \n",counter,multiple);
         System.out.printf("The sum of all multiples of %d in range 1 to 50 is %d \n",multiple,sum);
+        System.out.println("the average of all spesified variable is :"+average);
 
         sc.close();
     }
