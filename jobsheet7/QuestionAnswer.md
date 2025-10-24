@@ -9,7 +9,12 @@
 ![alt text](code3.png)
 ### lab 2
 1. I change the update structur to i+=2 so that the number becomes a multiple of 2.
-2. 
+2. done
+![alt text](code4.png)
+![alt text](image.png)
 ### lab 3
-
+1. 
+2. 
 ### lab 4 
+1. 
+2. 

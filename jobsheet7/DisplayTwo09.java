@@ -7,8 +7,8 @@ public class DisplayTwo09 {
         System.out.print("input some number: ");
         numInput = input.nextInt();
         for (int i = 2; i <= numInput; i+=2) {
-            System.out.print(" "+ i);
+            System.out.print(i + " ");
         }
-        System.out.print(" %");
+        System.out.print("%");
     }
 }
