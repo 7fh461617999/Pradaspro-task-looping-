@@ -1,5 +1,4 @@
 package jobsheet7;
-
 import java.util.Scanner;
 
 public class DoWhileLeaveEntitlement09 {
@@ -22,7 +21,9 @@ public class DoWhileLeaveEntitlement09 {
                 }
                 leaveEntitlement -= numLeave;
                 System.out.println("Remaining leave entitlement: " + leaveEntitlement);
-
+            } else if (confirmation.equalsIgnoreCase("n")) {
+                System.out.println("Exiting program...");
+                break; 
             }
         } while (leaveEntitlement > 0);
         input.close();

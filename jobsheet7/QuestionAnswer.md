@@ -18,4 +18,7 @@
 2. the function of s+= " *" is for give a * and add this in every line 
 ### lab 4 
 1. for stoping the program after dont enough leave Entitlement dispyaed 
-2. 
+2. done 
+3. done
+4. the program didn't run, because we in the confirmation input only y can be running / we have not set for that t
+5. done
