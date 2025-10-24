@@ -10,18 +10,19 @@ public class DoWhileLeaveEntitlement09 {
         System.out.print("Input the number of Leave Entitlement : ");
         leaveEntitlement = input.nextInt();
         do {
-            System.out.print("do you want to take a leave: ");
+            System.out.print("do you want to take a leave (y/n): ");
             confirmation = input.next();
             if (confirmation.equalsIgnoreCase("y")) {
                 System.out.print("how many day: ");
                 numLeave = input.nextInt();
-                if (numLeave <= leaveEntitlement) {
-                    leaveEntitlement -= numLeave;
-                    System.out.println("Reamining leave entitlement: " + leaveEntitlement);
-                } else {
-                    System.out.println("you dont have enough leave entitlement");
-                    break;
+                while (numLeave > leaveEntitlement) {
+                    System.out.println("you dont have enough leave entitlement. Remaining: " + leaveEntitlement);
+                    System.out.print("Please re-enter number of days: ");
+                    numLeave = input.nextInt();
                 }
+                leaveEntitlement -= numLeave;
+                System.out.println("Remaining leave entitlement: " + leaveEntitlement);
+
             }
         } while (leaveEntitlement > 0);
         input.close();

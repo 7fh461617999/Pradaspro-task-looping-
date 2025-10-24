@@ -13,8 +13,9 @@
 ![alt text](code4.png)
 ![alt text](image.png)
 ### lab 3
-1. 
-2. 
+1. done
+![alt text](code5.png)
+2. the function of s+= " *" is for give a * and add this in every line 
 ### lab 4 
-1. 
+1. for stoping the program after dont enough leave Entitlement dispyaed 
 2. 
