@@ -8,8 +8,8 @@
 4. done
 ![alt text](code3.png)
 ### lab 2
-1. 
-
+1. I change the update structur to i+=2 so that the number becomes a multiple of 2 .
+2. 
 ### lab 3
 
 ### lab 4 

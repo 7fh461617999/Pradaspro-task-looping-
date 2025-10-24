@@ -6,10 +6,8 @@ public class DisplayTwo09 {
         int numInput;
         System.out.println("input some number: ");
         numInput = input.nextInt();
-        for (int i = 1; i <= numInput; i++) {
-            if ( i % 2==0) {
-                System.out.println("2 multiple: "+ i);
-            }
+        for (int i = 1; i <= numInput; i+=2) {
+            
         }
     }
 }
