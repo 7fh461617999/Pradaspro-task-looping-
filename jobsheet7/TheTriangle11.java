@@ -1,6 +1,6 @@
 package jobsheet7;
 import java.util.Scanner;
-public class TheTriangle09 {
+public class TheTriangle11 {
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     int numInput ;

@@ -1,7 +1,7 @@
 package jobsheet7;
 import java.util.Scanner;
 
-public class DoWhileLeaveEntitlement09 {
+public class DoWhileLeaveEntitlement11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int leaveEntitlement = 0, numLeave;
