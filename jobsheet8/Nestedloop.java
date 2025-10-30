@@ -15,9 +15,14 @@ public class Nestedloop {
         int cityIndex = 0;
         for (Double[] cityTemps : temps) {
             System.out.println("City: " + cityIndex); 
+            Double sum =0.0;
             for (double temp : cityTemps) {
                 System.out.print(temp + " ");
+                sum+=temp;
             }
+            Double average =sum/cityTemps.length;
+            System.out.println();
+            System.out.printf("Average temperature for City %d: %.2f\n", cityIndex, average);
             System.out.println();
             cityIndex++; 
         }
