@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Triangle11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter value of N :");
+        System.out.print("enter value of N :");
         int N = sc.nextInt();
         int i = 0;
         while (i<= N) {
@@ -12,6 +12,7 @@ public class Triangle11 {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();
             i++;
         }
     }
