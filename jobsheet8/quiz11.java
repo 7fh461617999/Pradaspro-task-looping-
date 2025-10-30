@@ -14,6 +14,11 @@ public class quiz11 {
                 int answer = input.nextInt();
                 input.nextLine();
                 success = (answer == number );
+                if (answer > number) {
+                    System.out.println("the number is greater ");
+                } else if ( answer < number){
+                    System.out.println("your number is smaller");
+                }else {}
             } while (!success);
             System.out.println("Do you want to repeat the game (Y/N)");
             menu = input.next().charAt(0);
