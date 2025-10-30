@@ -12,12 +12,16 @@ public class Nestedloop {
             }
             System.out.println();
         }
-        for (int i = 0; i < temps.length; i++) {
-            System.out.println("city :"+i);
-            for (int j = 0; j < temps[0].length; j++) {
-                System.out.print(temps[i][j]+" ");
+        int cityIndex = 0;
+        for (Double[] cityTemps : temps) {
+            System.out.println("City: " + cityIndex); 
+            for (double temp : cityTemps) {
+                System.out.print(temp + " ");
             }
             System.out.println();
+            cityIndex++; 
+        }
+        Scanner.close();
         }
     }
-}
+

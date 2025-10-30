@@ -12,5 +12,7 @@
 ### EXPERIMENT 4  
 1. the program in experiment 4 mean we will try to guess the number from random system ,and if false you can guess again until you right and the program will be offer to play again .  
 2. After guessing the number correctly, you will be offered to play again. If you don't want to continue, type anything other than a capital Y or a consonant.  
-3. 
-### EXPERIMENT 5  
+3. done  
+4. done  
+### EXPERIMENT 5
+1.   
