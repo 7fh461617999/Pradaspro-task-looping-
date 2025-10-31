@@ -12,5 +12,6 @@ public class TheTriangle11 {
     System.out.println(s.repeat(i));
         i--;
     }
+    input.close();
     }
 }

@@ -10,5 +10,6 @@ public class DisplayTwo11 {
             System.out.print(i + " ");
         }
         System.out.print("%");
+        input.close();
     }
 }

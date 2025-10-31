@@ -24,5 +24,6 @@ public class quiz11 {
             menu = input.next().charAt(0);
             input.nextLine();
         } while (menu == 'Y' || menu == 'y');
+        input.close();
     }
 }

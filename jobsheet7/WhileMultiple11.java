@@ -16,5 +16,6 @@ public class WhileMultiple11 {
         }
         System.out.printf("There are %d number that are multiple of %d in range 1 to 50 \n",counter,multiple);
         System.out.printf("The sum of all multiples of %d in range 1 to 50 is %d \n",multiple,sum);
+        input.close();
     }
 }

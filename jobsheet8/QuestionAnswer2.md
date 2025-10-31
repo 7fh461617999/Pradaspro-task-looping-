@@ -15,4 +15,6 @@
 3. done  
 4. done  
 ### EXPERIMENT 5
-1.   
+1. in this experiment you will input the temperature of a city every day start by day 1 until 7 ,
+2. done
+3. done
